@@ -14,22 +14,22 @@
 ## 👥 Team QWERTY
 
 ### Core Team
--   **[ROHANBAIJU](https://github.com/ROHANBAIJU)**: Lead Developer
+-   **[ROHAN BAIJU](https://github.com/ROHANBAIJU)**: Team Lead
     * AI/ML Model Development & Integration
     * Backend Engineering
     * Backend-Frontend Integration
 
--   **Dhiya** (https://github.com/dhiya-k)
+-   **[DHIYA K](https://github.com/dhiya-k)**
     * Frontend Development
     * Backend Integration
     * UI/UX Design
 
--   **Udith** ([*add profile link here*])
+-   **[UDITH S](https://github.com/Udith-creates)**
     * Hardware Development
     * Game Developer
     * Backend Integration
 
--   **Joel** ([*add profile link here*])
+-   **[JOEL JO](https://github.com/joeljo777)**
     * Hardware Integration
     * PCB Design
     * Game testing and fine tuning

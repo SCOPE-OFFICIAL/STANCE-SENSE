@@ -542,6 +542,12 @@ Interactive API documentation (Swagger UI)
 - **Innovation**: Real-time AI analysis with game therapy integration
 ### WON THE HACKATHON....
 
+<div align="center">
+   
+![Winners Pic](docs/images/analytics-dashboard.png)
+*Real-time symptom monitoring with live charts, AI clinical summaries, and personalized care recommendations*
+</div>
+
 ### Technical Highlights
 - ✅ Sub-second latency sensor-to-dashboard pipeline
 - ✅ 3 pre-trained ML models for symptom detection

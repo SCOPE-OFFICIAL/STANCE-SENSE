@@ -282,7 +282,7 @@ python test_interactive.py
 ### 🎮 Interactive Rehabilitation Games
 - **EMG Strength Dial**: Real-time muscle control feedback using EMG sensors
 - **Biofeedback Training**: Visual representation of muscle activity (Starlord → Thanos levels)
-- **Serial Communication**: Direct Arduino R4 integration via Web Serial API
+- **Serial Communication**: Direct Arduino/Arduino R4 integration via Web Serial API
 - **Progress Tracking**: Achievement system for therapy adherence
 
 ### 🏆 Rewards & Gamification
@@ -342,7 +342,7 @@ TEAM-QWERTY/
 │   │
 │   └── test_interactive.py          # Interactive testing tool
 │
-├── EMBEDDED_SYSTEMS/                # Arduino R4 code
+├── EMBEDDED_SYSTEMS/                # Arduino R4 Arduino code
 │   └── sensor_firmware/             # Hardware firmware
 │
 ├── datasets/                        # Training datasets
@@ -410,7 +410,7 @@ graph LR
 ### 1. **Sensor Data Capture** (Arduino R4)
 ```json
 {
-  "device_id": "device_001",
+  "device_id": "Arduino R4_001",
   "timestamp": "2025-11-16T14:30:00Z",
   "tremor": {
     "frequency_hz": 4.5,
@@ -543,10 +543,11 @@ Interactive API documentation (Swagger UI)
 ### WON THE HACKATHON....
 
 <div align="center">
-   
-![Winners Pic](docs/images/analytics-dashboard.png)
-*Real-time symptom monitoring with live charts, AI clinical summaries, and personalized care recommendations*
+
+![Winners Picture](docs/images/WINNERS.jpg)
+*YEAA*
 </div>
+
 
 ### Technical Highlights
 - ✅ Sub-second latency sensor-to-dashboard pipeline

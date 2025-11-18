@@ -130,7 +130,7 @@ Parkinson's disease affects over 10 million people globally, requiring continuou
 
 ### Our Solution
 A **complete IoT-AI platform** featuring:
-- ✅ **Real-time Sensor Monitoring**: ESP32-based wearable with accelerometer & EMG sensors
+- ✅ **Real-time Sensor Monitoring**: Arduino R4-based wearable with accelerometer & EMG sensors
 - ✅ **AI-Powered Analysis**: Machine learning models for tremor, rigidity, and gait assessment
 - ✅ **WebSocket Streaming**: Sub-second latency data transmission to web dashboard
 - ✅ **Clinical RAG System**: Contextual alerts with personalized care recommendations
@@ -191,7 +191,7 @@ A **complete IoT-AI platform** featuring:
 # Required software
 - Node.js 18+ and npm
 - Python 3.11+
-- ESP32 Development Board
+- Arduino R4 Development Board
 - MPU6050 Accelerometer
 - EMG Sensors (optional but recommended)
 ```
@@ -231,9 +231,9 @@ node index.js
 # Listening on http://localhost:8080
 ```
 
-#### 5. Hardware Setup (ESP32)
+#### 5. Hardware Setup (Arduino R4)
 ```bash
-# Flash ESP32 with Arduino IDE
+# Flash Arduino R4 with Arduino IDE
 # Upload code from /EMBEDDED_SYSTEMS/
 # Configure WiFi credentials
 # Connect sensors: MPU6050 (I2C), EMG (Analog pins)
@@ -282,7 +282,7 @@ python test_interactive.py
 ### 🎮 Interactive Rehabilitation Games
 - **EMG Strength Dial**: Real-time muscle control feedback using EMG sensors
 - **Biofeedback Training**: Visual representation of muscle activity (Starlord → Thanos levels)
-- **Serial Communication**: Direct Arduino/ESP32 integration via Web Serial API
+- **Serial Communication**: Direct Arduino R4 integration via Web Serial API
 - **Progress Tracking**: Achievement system for therapy adherence
 
 ### 🏆 Rewards & Gamification
@@ -342,7 +342,7 @@ TEAM-QWERTY/
 │   │
 │   └── test_interactive.py          # Interactive testing tool
 │
-├── EMBEDDED_SYSTEMS/                # ESP32 Arduino code
+├── EMBEDDED_SYSTEMS/                # Arduino R4 code
 │   └── sensor_firmware/             # Hardware firmware
 │
 ├── datasets/                        # Training datasets
@@ -379,7 +379,7 @@ TEAM-QWERTY/
 - **WebSocket**: ws library
 
 ### Hardware
-- **Microcontroller**: ESP32 DevKit
+- **Microcontroller**: Arduino R4 DevKit
 - **Sensors**: 
   - MPU6050 (Accelerometer + Gyroscope)
   - EMG Sensors (Analog, wrist/arm)
@@ -398,7 +398,7 @@ TEAM-QWERTY/
 
 ```mermaid
 graph LR
-    A[ESP32 Sensors] -->|WiFi POST| B[Node.js:8080]
+    A[Arduino R4 Sensors] -->|WiFi POST| B[Node.js:8080]
     B -->|HTTP POST| C[FastAPI:8000]
     C -->|ML Processing| D[AI Models]
     D -->|WebSocket| E[Frontend:3000]
@@ -407,10 +407,10 @@ graph LR
     E -->|User Action| H[Games HTML]
 ```
 
-### 1. **Sensor Data Capture** (ESP32)
+### 1. **Sensor Data Capture** (Arduino R4)
 ```json
 {
-  "device_id": "esp32_001",
+  "device_id": "device_001",
   "timestamp": "2025-11-16T14:30:00Z",
   "tremor": {
     "frequency_hz": 4.5,
@@ -615,7 +615,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 - [Next.js Documentation](https://nextjs.org/docs)
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
 - [Chart.js Documentation](https://www.chartjs.org/docs/)
-- [ESP32 Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
+- [Arduino R4 Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/Arduino R4/)
 
 ---
 
